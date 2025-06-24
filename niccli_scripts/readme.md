@@ -1,6 +1,6 @@
 # NICCLI configuration scripts
 
-These scripts are for use with Broadcom network adapters that support the `niccli` command. For specific information about all `niccli` commands, consult the [Broadcom NICCLI documentation(https://techdocs.broadcom.com/us/en/storage-and-ethernet-connectivity/ethernet-nic-controllers/bcm957xxx/adapters/Configuration-adapter/nic-cli-configuration-utility.html).
+These scripts are for use with Broadcom network adapters that support the `niccli` command. For specific information about all `niccli` commands, consult the [Broadcom NICCLI documentation](https://techdocs.broadcom.com/us/en/storage-and-ethernet-connectivity/ethernet-nic-controllers/bcm957xxx/adapters/Configuration-adapter/nic-cli-configuration-utility.html).
 
 ## Script description
 
