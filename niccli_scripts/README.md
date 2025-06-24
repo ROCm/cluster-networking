@@ -6,13 +6,10 @@ These scripts are for use with Broadcom network adapters that support the `niccl
 
 Each script performs a distinct function:
 
-1. **niccli_rdma_config** - Checks that each NIC has RMDA support enabled (`support_rdma = True`), if supported. If not enabled, the script updates the configuration.
-
-2. **niccli_ro_config**  - Checks that each NIC has PCIE relaxed ordering enabled (`pcie_relaxed_ordering = Enabled`). If not enabled, the script updates the configuration.
-
-3. **niccli_set_profile** - Checks that each NIC has a RoCE performance profile enabled (`performance_profile = RoCE`), if supported. If not enabled, the script updates the configuration.
-
-4. **niccli_speedmask** - Checks the each NIC has PAM-4 speeds enabled (`autodetect_speed_exclude_mask = 200G|50G_PAM4|100G_PAM4`), if supported. If not enabled, the script updates the configuration.
+* **niccli_rdma_config** - Checks that each NIC has RMDA support enabled (`support_rdma = True`), if supported. If not enabled, the script updates the configuration.
+* **niccli_ro_config**  - Checks that each NIC has PCIE relaxed ordering enabled (`pcie_relaxed_ordering = Enabled`). If not enabled, the script updates the configuration.
+* **niccli_set_profile** - Checks that each NIC has a RoCE performance profile enabled (`performance_profile = RoCE`), if supported. If not enabled, the script updates the configuration.
+* **niccli_speedmask** - Checks the each NIC has PAM-4 speeds enabled (`autodetect_speed_exclude_mask = 200G|50G_PAM4|100G_PAM4`), if supported. If not enabled, the script updates the configuration.
 
 ## How to exclude devices
 
